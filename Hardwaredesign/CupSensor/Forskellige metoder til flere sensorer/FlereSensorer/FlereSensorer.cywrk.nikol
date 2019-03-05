@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="FlereSensorer\OpticSensorMoreChannels\TopDesign">
+<ExpandedNodeIds>
+<v>FlereSensorer</v>
+<v>FlereSensorer\OpticSensorMoreChannels</v>
+<v>FlereSensorer\OpticSensorMoreChannels\TopDesign</v>
+<v>FlereSensorer\OpticSensorMoreChannels\OpticSensorMoreChannels.cydwr</v>
+<v>FlereSensorer\OpticSensorMoreChannels\OpticSensorMoreChannels.cydwr\Pins</v>
+<v>FlereSensorer\OpticSensorMoreChannels\OpticSensorMoreChannels.cydwr\Analog</v>
+<v>FlereSensorer\OpticSensorMoreChannels\OpticSensorMoreChannels.cydwr\Clocks</v>
+<v>FlereSensorer\OpticSensorMoreChannels\OpticSensorMoreChannels.cydwr\Interrupts</v>
+<v>FlereSensorer\OpticSensorMoreChannels\OpticSensorMoreChannels.cydwr\DMA</v>
+<v>FlereSensorer\OpticSensorMoreChannels\OpticSensorMoreChannels.cydwr\System</v>
+<v>FlereSensorer\OpticSensorMoreChannels\OpticSensorMoreChannels.cydwr\Directives</v>
+<v>FlereSensorer\OpticSensorMoreChannels\OpticSensorMoreChannels.cydwr\Flash Security</v>
+<v>FlereSensorer\OpticSensorMoreChannels\OpticSensorMoreChannels.cydwr\EEPROM</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Header Files</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Header Files\cyapicallbacks.h</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Source Files</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Source Files\main.c</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Generated_Source</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Generated_Source\PSoC5</v>
+<v>FlereSensorer\OpticSensorMultiplexing\TopDesign</v>
+<v>FlereSensorer\OpticSensorMultiplexing\OpticSensorMultiplexing.cydwr</v>
+<v>FlereSensorer\OpticSensorMultiplexing\OpticSensorMultiplexing.cydwr\Pins</v>
+<v>FlereSensorer\OpticSensorMultiplexing\OpticSensorMultiplexing.cydwr\Analog</v>
+<v>FlereSensorer\OpticSensorMultiplexing\OpticSensorMultiplexing.cydwr\Clocks</v>
+<v>FlereSensorer\OpticSensorMultiplexing\OpticSensorMultiplexing.cydwr\Interrupts</v>
+<v>FlereSensorer\OpticSensorMultiplexing\OpticSensorMultiplexing.cydwr\DMA</v>
+<v>FlereSensorer\OpticSensorMultiplexing\OpticSensorMultiplexing.cydwr\System</v>
+<v>FlereSensorer\OpticSensorMultiplexing\OpticSensorMultiplexing.cydwr\Directives</v>
+<v>FlereSensorer\OpticSensorMultiplexing\OpticSensorMultiplexing.cydwr\Flash Security</v>
+<v>FlereSensorer\OpticSensorMultiplexing\OpticSensorMultiplexing.cydwr\EEPROM</v>
+<v>FlereSensorer\OpticSensorMultiplexing\Header Files</v>
+<v>FlereSensorer\OpticSensorMultiplexing\Header Files\cyapicallbacks.h</v>
+<v>FlereSensorer\OpticSensorMultiplexing\Source Files</v>
+<v>FlereSensorer\OpticSensorMultiplexing\Source Files\main.c</v>
+<v>FlereSensorer\OpticSensorMultiplexing\Generated_Source</v>
+<v>FlereSensorer\OpticSensorMultiplexing\Generated_Source\PSoC5</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\TopDesign</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\OpticSensorMultiplexingOneInput.cydwr</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\OpticSensorMultiplexingOneInput.cydwr\Pins</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\OpticSensorMultiplexingOneInput.cydwr\Analog</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\OpticSensorMultiplexingOneInput.cydwr\Clocks</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\OpticSensorMultiplexingOneInput.cydwr\Interrupts</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\OpticSensorMultiplexingOneInput.cydwr\DMA</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\OpticSensorMultiplexingOneInput.cydwr\System</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\OpticSensorMultiplexingOneInput.cydwr\Directives</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\OpticSensorMultiplexingOneInput.cydwr\Flash Security</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\OpticSensorMultiplexingOneInput.cydwr\EEPROM</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\Header Files</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\Header Files\cyapicallbacks.h</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\Source Files</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\Source Files\main.c</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\Generated_Source</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\Generated_Source\PSoC5</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>FlereSensorer</v>
+<v>FlereSensorer\OpticSensorMoreChannels</v>
+<v>FlereSensorer\OpticSensorMoreChannels\TopDesign</v>
+<v>FlereSensorer\OpticSensorMoreChannels\OpticSensorMoreChannels.cydwr</v>
+<v>FlereSensorer\OpticSensorMoreChannels\OpticSensorMoreChannels.cydwr\Pins</v>
+<v>FlereSensorer\OpticSensorMoreChannels\OpticSensorMoreChannels.cydwr\Analog</v>
+<v>FlereSensorer\OpticSensorMoreChannels\OpticSensorMoreChannels.cydwr\Clocks</v>
+<v>FlereSensorer\OpticSensorMoreChannels\OpticSensorMoreChannels.cydwr\Interrupts</v>
+<v>FlereSensorer\OpticSensorMoreChannels\OpticSensorMoreChannels.cydwr\DMA</v>
+<v>FlereSensorer\OpticSensorMoreChannels\OpticSensorMoreChannels.cydwr\System</v>
+<v>FlereSensorer\OpticSensorMoreChannels\OpticSensorMoreChannels.cydwr\Directives</v>
+<v>FlereSensorer\OpticSensorMoreChannels\OpticSensorMoreChannels.cydwr\Flash Security</v>
+<v>FlereSensorer\OpticSensorMoreChannels\OpticSensorMoreChannels.cydwr\EEPROM</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Header Files</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Header Files\cyapicallbacks.h</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Source Files</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Source Files\main.c</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Generated_Source</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Generated_Source\PSoC5</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Generated_Source\PSoC5\ADC_DelSig_1</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Generated_Source\PSoC5\ADC_DelSig_1_AMux</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Generated_Source\PSoC5\ADC_DelSig_1_Ext_CP_Clk</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Generated_Source\PSoC5\ADC_DelSig_1_IRQ</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Generated_Source\PSoC5\ADC_DelSig_1_theACLK</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Generated_Source\PSoC5\Clock_2</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Generated_Source\PSoC5\cy_boot</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Generated_Source\PSoC5\DacOut</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Generated_Source\PSoC5\DMA_1</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Generated_Source\PSoC5\DMA_2</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Generated_Source\PSoC5\DMA_3</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Generated_Source\PSoC5\Em_EEPROM_Dynamic</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Generated_Source\PSoC5\ExtClock</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Generated_Source\PSoC5\Filter_1</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Generated_Source\PSoC5\isr_1</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Generated_Source\PSoC5\Mixer_1</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Generated_Source\PSoC5\PhotoIn</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>FlereSensorer</v>
+<v>FlereSensorer\OpticSensorMoreChannels</v>
+<v>FlereSensorer\OpticSensorMoreChannels\TopDesign</v>
+<v>FlereSensorer\OpticSensorMoreChannels\TopDesign\TopDesign.cysch</v>
+<v>FlereSensorer\OpticSensorMultiplexing</v>
+<v>FlereSensorer\OpticSensorMultiplexing\TopDesign</v>
+<v>FlereSensorer\OpticSensorMultiplexing\TopDesign\TopDesign.cysch</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\TopDesign</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>FlereSensorer</v>
+<v>FlereSensorer\OpticSensorMoreChannels</v>
+<v>FlereSensorer\OpticSensorMoreChannels\TopDesign</v>
+<v>FlereSensorer\OpticSensorMoreChannels\TopDesign\TopDesign.cysch</v>
+<v>FlereSensorer\OpticSensorMultiplexing</v>
+<v>FlereSensorer\OpticSensorMultiplexing\TopDesign</v>
+<v>FlereSensorer\OpticSensorMultiplexing\TopDesign\TopDesign.cysch</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\TopDesign</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>FlereSensorer</v>
+<v>FlereSensorer\OpticSensorMoreChannels</v>
+<v>FlereSensorer\OpticSensorMoreChannels\OpticSensorMoreChannels.gpdsc</v>
+<v>FlereSensorer\OpticSensorMoreChannels\OpticSensorMoreChannels.rpt</v>
+<v>FlereSensorer\OpticSensorMoreChannels\OpticSensorMoreChannels_timing.html</v>
+<v>FlereSensorer\OpticSensorMultiplexing</v>
+<v>FlereSensorer\OpticSensorMultiplexing\OpticSensorMultiplexing.gpdsc</v>
+<v>FlereSensorer\OpticSensorMultiplexing\OpticSensorMultiplexing.rpt</v>
+<v>FlereSensorer\OpticSensorMultiplexing\OpticSensorMultiplexing_timing.html</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\OpticSensorMultiplexingOneInput.gpdsc</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\OpticSensorMultiplexingOneInput.rpt</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\OpticSensorMultiplexingOneInput_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>FlereSensorer</v>
+<v>FlereSensorer\OpticSensorMoreChannels</v>
+<v>FlereSensorer\OpticSensorMoreChannels\OpticSensorMoreChannels.gpdsc</v>
+<v>FlereSensorer\OpticSensorMoreChannels\OpticSensorMoreChannels.rpt</v>
+<v>FlereSensorer\OpticSensorMoreChannels\OpticSensorMoreChannels_timing.html</v>
+<v>FlereSensorer\OpticSensorMultiplexing</v>
+<v>FlereSensorer\OpticSensorMultiplexing\OpticSensorMultiplexing.gpdsc</v>
+<v>FlereSensorer\OpticSensorMultiplexing\OpticSensorMultiplexing.rpt</v>
+<v>FlereSensorer\OpticSensorMultiplexing\OpticSensorMultiplexing_timing.html</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\OpticSensorMultiplexingOneInput.gpdsc</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\OpticSensorMultiplexingOneInput.rpt</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\OpticSensorMultiplexingOneInput_timing.html</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>FlereSensorer</v>
+<v>FlereSensorer\OpticSensorMoreChannels</v>
+<v>FlereSensorer\OpticSensorMoreChannels\PSoC 5LP Architecture TRM</v>
+<v>FlereSensorer\OpticSensorMoreChannels\CY8C58LP Family Datasheet</v>
+<v>FlereSensorer\OpticSensorMoreChannels\System Reference Guides</v>
+<v>FlereSensorer\OpticSensorMoreChannels\System Reference Guides\cy_boot_v5_70</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Capacitor_v1_0.pdf</v>
+<v>FlereSensorer\OpticSensorMoreChannels\cy_clock_v2_20</v>
+<v>FlereSensorer\OpticSensorMoreChannels\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>FlereSensorer\OpticSensorMoreChannels\cy_pins_v2_20.pdf</v>
+<v>FlereSensorer\OpticSensorMoreChannels\cy_vref_v1_70</v>
+<v>FlereSensorer\OpticSensorMoreChannels\cy_vref_v1_70\cy_vref_v1_70.pdf</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Gnd_v1_0</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Gnd_v1_0\Gnd_v1_0.pdf</v>
+<v>FlereSensorer\OpticSensorMoreChannels\LED_v1_0</v>
+<v>FlereSensorer\OpticSensorMoreChannels\LED_v1_0\LED_v1_0.pdf</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Mixer_v2_0.pdf</v>
+<v>FlereSensorer\OpticSensorMoreChannels\PhotoDiode_v1_0</v>
+<v>FlereSensorer\OpticSensorMoreChannels\PhotoDiode_v1_0\PhotoDiode_v1_0.pdf</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Power_v1_0.pdf</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Resistor_v1_0.pdf</v>
+<v>FlereSensorer\OpticSensorMoreChannels\TIA_v2_0.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexing</v>
+<v>FlereSensorer\OpticSensorMultiplexing\PSoC 5LP Architecture TRM</v>
+<v>FlereSensorer\OpticSensorMultiplexing\CY8C58LP Family Datasheet</v>
+<v>FlereSensorer\OpticSensorMultiplexing\System Reference Guides</v>
+<v>FlereSensorer\OpticSensorMultiplexing\System Reference Guides\cy_boot_v5_70</v>
+<v>FlereSensorer\OpticSensorMultiplexing\AMux_v1_80.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexing\Capacitor_v1_0.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexing\cy_clock_v2_20.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexing\cy_pins_v2_20.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexing\cy_vref_v1_70</v>
+<v>FlereSensorer\OpticSensorMultiplexing\cy_vref_v1_70\cy_vref_v1_70.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexing\demux_v1_10.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexing\Gnd_v1_0</v>
+<v>FlereSensorer\OpticSensorMultiplexing\Gnd_v1_0\Gnd_v1_0.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexing\LED_v1_0</v>
+<v>FlereSensorer\OpticSensorMultiplexing\LED_v1_0\LED_v1_0.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexing\Mixer_v2_0.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexing\PhotoDiode_v1_0</v>
+<v>FlereSensorer\OpticSensorMultiplexing\PhotoDiode_v1_0\PhotoDiode_v1_0.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexing\Power_v1_0.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexing\Resistor_v1_0.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexing\TIA_v2_0.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\PSoC 5LP Architecture TRM</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\CY8C58LP Family Datasheet</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\System Reference Guides</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\System Reference Guides\cy_boot_v5_70</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\Capacitor_v1_0.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\cy_clock_v2_20.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\cy_pins_v2_20.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\cy_vref_v1_70</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\cy_vref_v1_70\cy_vref_v1_70.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\demux_v1_10.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\Gnd_v1_0</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\Gnd_v1_0\Gnd_v1_0.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\LED_v1_0</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\LED_v1_0\LED_v1_0.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\Mixer_v2_0.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\PhotoDiode_v1_0</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\PhotoDiode_v1_0\PhotoDiode_v1_0.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\Power_v1_0.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\Resistor_v1_0.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexingOneInput\TIA_v2_0.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>FlereSensorer</v>
+<v>FlereSensorer\OpticSensorMoreChannels</v>
+<v>FlereSensorer\OpticSensorMoreChannels\PSoC 5LP Architecture TRM</v>
+<v>FlereSensorer\OpticSensorMoreChannels\CY8C58LP Family Datasheet</v>
+<v>FlereSensorer\OpticSensorMoreChannels\System Reference Guides</v>
+<v>FlereSensorer\OpticSensorMoreChannels\System Reference Guides\cy_boot_v5_70</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Capacitor_v1_0.pdf</v>
+<v>FlereSensorer\OpticSensorMoreChannels\cy_clock_v2_20</v>
+<v>FlereSensorer\OpticSensorMoreChannels\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>FlereSensorer\OpticSensorMoreChannels\cy_pins_v2_20.pdf</v>
+<v>FlereSensorer\OpticSensorMoreChannels\cy_vref_v1_70</v>
+<v>FlereSensorer\OpticSensorMoreChannels\cy_vref_v1_70\cy_vref_v1_70.pdf</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Gnd_v1_0</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Gnd_v1_0\Gnd_v1_0.pdf</v>
+<v>FlereSensorer\OpticSensorMoreChannels\LED_v1_0</v>
+<v>FlereSensorer\OpticSensorMoreChannels\LED_v1_0\LED_v1_0.pdf</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Mixer_v2_0.pdf</v>
+<v>FlereSensorer\OpticSensorMoreChannels\PhotoDiode_v1_0</v>
+<v>FlereSensorer\OpticSensorMoreChannels\PhotoDiode_v1_0\PhotoDiode_v1_0.pdf</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Power_v1_0.pdf</v>
+<v>FlereSensorer\OpticSensorMoreChannels\Resistor_v1_0.pdf</v>
+<v>FlereSensorer\OpticSensorMoreChannels\TIA_v2_0.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexing</v>
+<v>FlereSensorer\OpticSensorMultiplexing\PSoC 5LP Architecture TRM</v>
+<v>FlereSensorer\OpticSensorMultiplexing\CY8C58LP Family Datasheet</v>
+<v>FlereSensorer\OpticSensorMultiplexing\System Reference Guides</v>
+<v>FlereSensorer\OpticSensorMultiplexing\System Reference Guides\cy_boot_v5_70</v>
+<v>FlereSensorer\OpticSensorMultiplexing\AMux_v1_80.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexing\Capacitor_v1_0.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexing\cy_clock_v2_20.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexing\cy_pins_v2_20.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexing\cy_vref_v1_70</v>
+<v>FlereSensorer\OpticSensorMultiplexing\cy_vref_v1_70\cy_vref_v1_70.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexing\demux_v1_10.pdf</v>
+<v>FlereSensorer\OpticSensorMultiplexing\Gnd_v1_0</v>
+<v>FlereSensorer\OpticSensorMultiplexing\Gnd_v1_0\Gnd_v1_0.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\OpticSensorMultiplexing.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\OpticSensorMultiplexingOneInput.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\OpticSensorMoreChannels.cydsn\TopDesign\TopDesign.cysch" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="892, 475" SelectedTabbedMdiWindow="18ab22de-4b05-40cc-84d7-cfd19df53948"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="73776ff8-b63e-4be0-a210-a1b1e25d33d1" /><DocumentWindow Key="C:\Users\nikol\Documents\git\3. Semester\PRJ3\i3prj_projekt\Hardwaredesign\CupSensor\Forskellige metoder til flere sensorer\FlereSensorer\OpticSensorMultiplexing.cydsn\TopDesign\TopDesign.cysch" Guid="2125fa75-e98d-4707-9cb1-ca524b528006" /><DocumentWindow Key="C:\Users\nikol\Documents\git\3. Semester\PRJ3\i3prj_projekt\Hardwaredesign\CupSensor\Forskellige metoder til flere sensorer\FlereSensorer\OpticSensorMultiplexingOneInput.cydsn\TopDesign\TopDesign.cysch" Guid="18ab22de-4b05-40cc-84d7-cfd19df53948" /><DocumentWindow Key="C:\Users\nikol\Documents\git\3. Semester\PRJ3\i3prj_projekt\Hardwaredesign\CupSensor\Forskellige metoder til flere sensorer\FlereSensorer\OpticSensorMoreChannels.cydsn\TopDesign\TopDesign.cysch" Guid="f8a20da6-fb51-47ff-8cb0-c401efd05352" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>

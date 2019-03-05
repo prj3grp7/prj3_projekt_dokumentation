@@ -1,0 +1,6 @@
+C:\Users\Marcus Gasberg\Documents\GitHub\i3prj_projekt\Softwaredesign\Demoer\BeerPongTable_LED_Demo\Design01.cydsn\Design01.cyprj|6d98a0ac-9a76-41d8-8f8f-a4f6b532bdac
+F:\Marcus\software\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|4005b438-5dde-49e5-87af-768b6c4f7009
+C:\Users\Marcus Gasberg\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|e17f8e7e-f87a-4b89-89cc-e346732a8f67
+F:\Marcus\software\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|c6905ba2-34c6-42a8-a207-c42a4b46194e
+F:\Marcus\software\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|1aed7390-63cb-41fa-aa35-691703e6bea3
+F:\Marcus\software\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|3f4a3e59-299b-4e99-a3ba-10c40fbee5e5

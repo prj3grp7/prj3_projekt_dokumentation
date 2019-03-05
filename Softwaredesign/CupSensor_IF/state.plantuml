@@ -1,0 +1,21 @@
+@startuml state.png
+
+!include skin.plantuml
+
+title sm for CupSensorUnit
+
+
+  NOT_PLACED : **entry **\n buffer.resetBuffer()
+  VALIDATING_PLACED : **entry **\n buffer.resetBuffer()
+  PLACED : **entry **\n buffer.resetBuffer()
+  HIT : **entry **\n buffer.resetBuffer()
+
+  [*] -down-> NOT_PLACED
+  NOT_PLACED -down-> VALIDATING_PLACED : reading > placed_trigger
+  VALIDATING_PLACED -up-> NOT_PLACED : reading < removed_trigger
+  VALIDATING_PLACED -right-> PLACED : buffer.index >= 20
+  PLACED -up-> NOT_PLACED : reading < removed_trigger
+  PLACED -up-> HIT : (reading > hit_trigger * placed_baseline) \n&& (placed_baseline > 0)
+  HIT -left-> NOT_PLACED : reading < removed_trigger
+
+@enduml

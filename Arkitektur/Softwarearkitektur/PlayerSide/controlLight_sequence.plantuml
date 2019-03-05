@@ -1,0 +1,40 @@
+@startuml controlLights_sequence.png
+
+!include skin.plantuml
+!include names.plantuml
+
+title seq for controlLights() method \nin GameController for playerSide Apllication model
+
+participant GameController
+participant CupLight_IF
+
+activate GameController
+  alt currentState == PLAYING
+    opt currentTime - lastBlinkTime > blinkPeriod
+      GameController -> GameController : blinkState = !blinkState
+      GameController -> GameController : lastBlinkTime = currentTime
+    end
+
+    alt blinkState
+      GameController -> GameController: updateLight(cupStatus & (~hitStatus), thisSideColor, oppositeSideColor)
+      activate GameController
+      ref over GameController, CupLight_IF : updateLight(status : uint8_t, onColor : Color, offColor : Color)
+      GameController -[hidden]> CupLight_IF
+      deactivate GameController
+      GameController -[hidden]> CupLight_IF
+      deactivate GameController
+    else !blinkState
+      GameController -> GameController: updateLight(cupStatus, thisSideColor, oppositeSideColor)
+      activate GameController
+      ref over GameController, CupLight_IF : updateLight(status : uint8_t, onColor : Color, offColor : Color)
+      GameController -[hidden]> CupLight_IF
+      deactivate GameController
+      GameController -[hidden]> CupLight_IF
+      deactivate GameController
+    end
+end
+
+deactivate GameController
+
+
+@enduml

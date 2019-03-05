@@ -1,0 +1,44 @@
+@startuml UC2_sequence.png
+
+!include skin.plantuml
+!include names.plantuml
+
+title seq for UC2 State \n PlayerSideApp Apllication model
+
+actor activeUser
+actor opponentUser
+
+participant CupSensor_IF
+participant GameController
+participant RPi_IF
+
+
+hnote over GameController : PLAYING
+
+loop currentState == PLAYING
+
+  alt Opponent places or removes a
+      opponentUser ->> CupSensor_IF : places or removes a cup \nto/from the sensor
+
+      activate CupSensor_IF
+      CupSensor_IF -> GameController : updateCupStatus(status)
+      activate GameController
+
+      GameController -> GameController : cupStatus = status
+      GameController -> RPi_IF : sendCupStatus(cupStatus)
+      deactivate GameController
+      deactivate CupSensor_IF
+  else activeUser hits cup
+    activeUser ->> CupSensor_IF : hits a cup
+
+    activate CupSensor_IF
+    CupSensor_IF -> GameController : updateHitStatus(status)
+    activate GameController
+    GameController -> GameController : hitStatus = status
+    GameController -[hidden]> CupSensor_IF
+    deactivate GameController
+    deactivate CupSensor_IF
+  end
+end
+
+@enduml

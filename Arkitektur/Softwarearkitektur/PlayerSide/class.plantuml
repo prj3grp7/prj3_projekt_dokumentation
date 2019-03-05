@@ -1,0 +1,80 @@
+
+
+@startuml classDiagram.png
+
+
+!include skin.plantuml
+!include names.plantuml
+skinparam classAttributeIconSize 0
+
+title class diagram for PlayerSideApp Apllication model
+
+class Color <<domain>> {
+  +red : uint8_t
+  +green : uint8_t
+  +blue : uint8_t
+}
+
+
+class RPi_IF <<boundary>> {
+  +sendCupStatus(status : uint8_t) : void
+  +RPI_IF_handleData() : void
+}
+
+class GameState <<Enumeration>>{
+  IDLE
+  STARTING
+  PLAYING
+  LOST
+  WON
+}
+
+class GameController <<controller>>{
+  -turnedOffColor : Color
+  -missingCupColor : Color
+  -placedCupColor : Color
+  -myColor : Color
+  -opponentColor : Color
+  -currentState : GameState
+  -cupStatus : uint8_t
+  -hitStatus : uint8_t
+  +setState(state : GameState) : void
+  +setMyColor(c : Color) : void
+  +setOpponentColor(c : Color) : void
+  +updateCupStatus(status : uint8_t) : void
+  +updateHitStatus(status : uint8_t) : void
+  +Controller() : void
+  -interruptBlink() : void
+  -controlLights() : void
+}
+together {
+  class CupLight_IF <<boundary>> {
+    -colors[6] : Color
+    +controlLight(cupIndex : Int, color : Color) : void
+    +controlAllLights(color : Color)
+  }
+
+  class CupSensor_IF <<boundary>> {
+    +getStatus() : uint8_t
+    +getHitStatus() : uint8_t
+  }
+}
+
+
+
+
+CupSensor_IF -[hidden]-> CupLight_IF
+
+CupSensor_IF <-> GameController
+CupLight_IF <- GameController
+GameController --> "*" Color
+GameController --> GameState
+
+GameController <-> RPi_IF
+
+
+
+
+
+
+@enduml

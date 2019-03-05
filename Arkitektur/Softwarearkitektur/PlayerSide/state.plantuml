@@ -1,0 +1,24 @@
+@startuml state.png
+
+!include skin.plantuml
+!include names.plantuml
+
+title sm for PlayerSideApp Apllication model
+
+
+  IDLE : **entry **\n CupLight_IF.controlAllLights(turnedOffColor) \n**do** \n Controller()
+  STARTING : **entry **\n cupStatus =  CupSensor_IF.getStatus()\n RPi_IF.sendCupStatus(cupStatus)\n controlLights() \n**do** \n Controller()
+  PLAYING : **entry **\n cupStatus =  CupSensor_IF.getStatus()\n CupSensor_IF.getHitStatus()\n RPi_IF.sendCupStatus(cupStatus)\n controlLights() \n**do** \n Controller()
+  LOST : **entry **\n CupLight_IF.controlAllLights(opponentColor) \n**do** \n Controller()
+  WON : **entry **\n CupLight_IF.controlAllLights(myColor) \n**do** \n Controller()
+
+  [*] --> IDLE
+  IDLE --> STARTING : setState(state) \n[state == STARTING]
+  STARTING --> PLAYING : setState(state) \n[state == PLAYING]
+  PLAYING --> WON : setState(state) \n[state == WON]
+  PLAYING --> LOST : setState(state) \n[state == LOST]
+  WON --> IDLE : setState(state) \n[state == IDLE]
+  LOST --> IDLE : setState(state) \n[state == IDLE]
+
+
+@enduml

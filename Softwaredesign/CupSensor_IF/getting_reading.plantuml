@@ -1,0 +1,51 @@
+@startuml getting_reading.png
+
+!include skin.plantuml
+
+title seq for handling new data
+
+participant Control_Reg_Led
+participant GameController
+participant CupSensor
+participant "CupSensorUnit[1-6]"
+participant "buffer : CircularBuffer"
+
+
+
+-> CupSensor : CY_ISR(newValueInterruptHandler)
+activate CupSensor
+
+CupSensor -> Control_Reg_Led : Control_Reg_Led_Read()
+
+CupSensor <-- Control_Reg_Led : regValue
+
+alt regValue + 1 > 5
+  CupSensor -> Control_Reg_Led : Control_Reg_Led_Write(0)
+else else
+  CupSensor -> Control_Reg_Led : Control_Reg_Led_Write(regValue+1)
+end
+
+CupSensor -> "CupSensorUnit[1-6]" : insertReading(reading)
+activate "CupSensorUnit[1-6]"
+
+ "CupSensorUnit[1-6]" ->  "buffer : CircularBuffer" : insertReading(reading)
+"CupSensorUnit[1-6]" -> "CupSensorUnit[1-6]" : updateState()
+ "CupSensorUnit[1-6]" -> "CupSensorUnit[1-6]" : calculateBaselines()
+
+CupSensor <-- "CupSensorUnit[1-6]"
+deactivate "CupSensorUnit[1-6]"
+
+opt "state changed"
+  alt state == PLACED
+    CupSensor -> GameController: updateCupStatus(cupStatus)
+  else state == NOT_PLACED
+    CupSensor -> GameController: updateCupStatus(cupStatus)
+    CupSensor -> GameController: updateHitStatus(hitStatus)
+  else state == HIT
+    CupSensor -> GameController: updateHitStatus(hitStatus)
+  end
+end
+
+deactivate CupSensor
+
+@enduml

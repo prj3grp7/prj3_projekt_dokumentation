@@ -1,0 +1,16 @@
+!define UC1 UC1
+!define UC2 UC2
+!define UC3 UC3
+!define RPi_IF RPi_IF
+!define CupSensor_IF CupSensor_IF
+!define CupLight_IF CupLight_IF
+!define ColorClass Color
+!define Timer Timer
+
+!define UC1State UC1_state
+!define UC2State UC2_state
+!define UC3State UC3_state
+!define idleState Idle_State
+
+!define activeUser "Active Team"
+!define opponentUser "Opponent Team"

@@ -1,0 +1,25 @@
+ULTIBOARD DRILL REPORT
+
+Design: CupHolder
+
+DRILL FILE SETTINGS
+Excellon 2, Absolute, Metric, 3.4 
+
+
+DEFINITION COPPER LAYERS
+Copper Top
+Copper Bottom
+
+
+--------------------------------------------------------------------
+
+DRILLFILE                                  LAMINATION
+CupHolder - Copper Top-Copper Bottom.drl   Copper Top .. Copper Bottom
+
+TOOL     SIZE   TYPE  COUNT
+   1   0.9000    PTH     58
+   2   0.7000   NPTH     20
+   3   0.7000    PTH     14
+   4   0.5000    PTH     12
+   5   0.8000   NPTH      2
+   6   3.0000   NPTH      3

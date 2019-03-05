@@ -1,0 +1,41 @@
+RefDes Value             
+
+D1     SFH 203 FA        
+D2     SFH 203 FA        
+D3     SFH 203 FA        
+D4     SFH 203 FA        
+J1     PJ-102A           
+J2     HDR2X3            
+J3     JUMPER            
+LED1   LED_ir            
+Q1     BC547BP           
+Q2     BC557BG           
+Q3     BC557BG           
+Q4     BC557BG           
+R1     91Ohm             
+R2     820Ohm            
+R3     16Ohm             
+R4     16Ohm             
+R5     160Ohm            
+R6     91Ohm             
+R7     91Ohm             
+R8     91Ohm             
+R9     91Ohm             
+R10    91Ohm             
+R11    91Ohm             
+R12    91Ohm             
+R13    91Ohm             
+R14    160Ohm            
+R15    160Ohm            
+R16    91Ohm             
+R17    160Ohm            
+R18    160Ohm            
+R19    1.82kOhm          
+R20    1.82kOhm          
+R21    1.82kOhm          
+U1     RGB LED           
+U2     RGB LED           
+U3     RGB LED           
+U4     RGB LED           
+U5     RGB LED           
+

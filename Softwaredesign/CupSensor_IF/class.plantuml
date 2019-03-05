@@ -1,0 +1,82 @@
+
+
+@startuml classDiagram.png
+
+
+!include skin.plantuml
+skinparam classAttributeIconSize 0
+
+title class diagram for CupSensor_IF
+
+class CupSensor <<domain>> {
+  -cupStatus : uint8_t
+  -hitStatus : uint8_t
+  -sensors[6] : CupSensorUnit
+  +Start() : void
+  +statusCallback((*callback)(uint8_t) : void) : void
+  +hitStatusCallback((*callback)(uint8_t) : void) : void
+  +getStatus() : uint8_t
+  +getHitStatus() : uint8_t
+  +CY_ISR(newValueInterruptHandler)
+}
+
+class CircularBuffer <<domain>> {
+  +data[] : uint8_t
+  +index : uint16_t
+  +average : float
+  +min : uint8_t
+  +max : uint8_t
+  +reset : uint8_t
+  +sum : uint32_t
+  +size : uint16_t
+
+  +insertReading(reading : uint8_t) : void
+  +getLastReading(reading : uint8_t*) : int8_t
+  +init(size : uint16_t) : void
+  +resetBuffer() : void
+  +calculateMinMax() : void
+}
+
+
+class CupSensorUnit <<boundary>> {
+  +state : CUP_STATE
+  +baseline : int16_t
+  +placed_trigger : int8_t
+  +placed_baseline : int16_t
+  +removed_trigger : int8_t
+  +hit_trigger : float
+  +buffer : CircularBuffer
+
+  +init() : void
+  -calculateBaselines() : void
+  -updateState() : uint8_t
+  +insertReading() : uint8_t
+}
+
+class CUP_STATE <<Enumeration>>{
+  NOT_PLACED
+  VALIDATING_PLACED
+  PLACED
+  HIT
+}
+
+class CupSensor_IF <<boundary>> {
+  +init() : void
+  +getStatus() : uint8_t
+  +getHitStatus() : uint8_t
+}
+
+
+
+
+
+CupSensor <-> CupSensor_IF
+
+CupSensor  *-- "6 " CupSensorUnit
+
+CupSensorUnit *-- CircularBuffer
+CupSensorUnit  *-  CUP_STATE
+
+
+
+@enduml

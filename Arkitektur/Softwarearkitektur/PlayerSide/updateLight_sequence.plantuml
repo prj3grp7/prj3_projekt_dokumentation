@@ -1,0 +1,30 @@
+@startuml updateLight_sequence.png
+
+!include skin.plantuml
+!include names.plantuml
+
+title seq for \nupdateLight(status : uint8_t, \nonColor : Color, \noffColor : Color) \nmethod in GameController for playerSide Apllication model
+
+
+participant GameController
+participant CupLight_IF
+
+activate GameController
+loop i from 0 to 5
+  alt bit  **i** in status == 1
+    GameController -> CupLight_IF : controlLight(i, onColor)
+    activate CupLight_IF
+    |||
+    deactivate CupLight_IF
+  else bit  **i** in status == 0
+    GameController -> CupLight_IF : controlLight(i, offColor)
+    activate CupLight_IF
+    |||
+    deactivate CupLight_IF
+  end
+end
+
+deactivate GameController
+
+
+@enduml

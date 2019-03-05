@@ -1,0 +1,47 @@
+@startuml UC1_sequence.png
+
+!include skin.plantuml
+!include names.plantuml
+
+title seq for UC1 state\n PlayerSideApp Apllication model
+
+actor activeUser
+
+participant CupSensor_IF
+participant GameController
+participant RPi_IF
+
+
+hnote over GameController : STARTING
+
+loop cupStatus & 0x3F != 0x3F
+  activeUser ->> CupSensor_IF : places or removes a cup \nto/from the sensor
+  activate CupSensor_IF
+  CupSensor_IF -> GameController : updateCupStatus(status)
+  activate GameController
+  GameController -> GameController : cupStatus = status
+  GameController -> RPi_IF : sendCupStatus(cupStatus)
+  deactivate GameController
+  deactivate CupSensor_IF
+end
+
+
+GameController -[hidden]> RPi_IF
+activate RPi_IF
+RPi_IF -> GameController : setMyColorscolor)
+activate GameController
+GameController -> GameController : myColor = color
+GameController -[hidden]> RPi_IF
+deactivate GameController
+deactivate RPi_IF
+
+GameController -[hidden]> RPi_IF
+activate RPi_IF
+RPi_IF -> GameController : setOpponentColor(color)
+activate GameController
+GameController -> GameController : opponentColor = color
+GameController -[hidden]> RPi_IF
+deactivate GameController
+deactivate RPi_IF
+
+@enduml
